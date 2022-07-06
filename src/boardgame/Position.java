@@ -26,6 +26,11 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
+	
+	public void setValues (int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 
 	// ToString - retorna posição Y e X
 	@Override
